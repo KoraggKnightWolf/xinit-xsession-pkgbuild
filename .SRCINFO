@@ -1,0 +1,13 @@
+pkgbase = xinit-xsession
+	pkgdesc = Allows ~/.xinitrc to be run as a session from your display manager
+	pkgver = 2
+	pkgrel = 1
+	url = https://github.com/KoraggKnightWolf/xinit-xsession
+	arch = any
+	license = GPL3
+	depends = bash
+	provides = xinit-xsession
+	source = git+https://github.com/KoraggKnightWolf/xinit-xsession.git
+	md5sums = SKIP
+
+pkgname = xinit-xsession
